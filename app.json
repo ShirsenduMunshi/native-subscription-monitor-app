@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "payment_monitor",
-    "slug": "payment_monitor",
+    "slug": "paymentmonitor",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1ed15ded-3fcc-45e0-87ed-c1625958048c"
+      }
+    },
+    "owner": "smunshis-organization"
   }
 }
