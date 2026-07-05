@@ -14,7 +14,7 @@ export default function App() {
       </Text>
       <Link href={"/onbording"} className="rounded mt-4 bg-primary text-white p-4">Go to Onbording</Link>
       <Link href={'/(auth)/sign-up'} className='rounded mt-4 bg-primary text-white p-4'>Go to Sign Up</Link>
-      <Link href={'/(auth)/sign-up'} className='rounded mt-4 bg-primary text-white p-4'>Go to Sign in</Link>
+      <Link href={'/(auth)/sign-in'} className='rounded mt-4 bg-primary text-white p-4'>Go to Sign in</Link>
 
       <Link href={"/subscriptions/spotify"} className="rounded mt-4 bg-primary text-white p-4"> Spotify </Link> 
       <Link
