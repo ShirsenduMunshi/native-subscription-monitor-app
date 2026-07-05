@@ -23,13 +23,13 @@ const SubscriptionCard = ({name, price, currency, billing, icon, color, category
                 <View className="sub-row">
                     <View className="sub-roe-copy">
                         <Text className="sub-label">Payment:</Text>
-                        <Text numberOfLines={1} ellipsizeMode='tail' className="sub-value">{paymentMethod?.trim()}</Text>
+                        <Text numberOfLines={1} ellipsizeMode='tail' className="sub-value">{paymentMethod?.trim() ?? "Not provided"}</Text>
                     </View>
                 </View>
                 <View className="sub-row">
                     <View className="sub-roe-copy">
                         <Text className="sub-label">Category:</Text>
-                        <Text numberOfLines={1} ellipsizeMode='tail' className="sub-value">{category?.trim() || plan?.trim()}</Text>
+                        <Text numberOfLines={1} ellipsizeMode='tail' className="sub-value">{(category?.trim() || plan?.trim()) ?? "Not provided"}</Text>
                     </View>
                 </View>
                 <View className="sub-row">

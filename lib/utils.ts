@@ -9,9 +9,7 @@ export const formatCurrency = (value: number, currency: string = "USD")=>{
             maximumFractionDigits: 2
         }).format(value);
     } catch (error) {
-        // If formatting fails
-        const formattedValue = value.toFixed(2);
-        return `$${formattedValue}`;
+        return value.toFixed(2);
     }
 };
 
