@@ -7,6 +7,7 @@ const signIn = () => {
     <View>
       <Text>sign-in</Text>
       <Link href={'/(auth)/sign-in'} className='rounded mt-4 bg-primary text-white p-4'>Create Account</Link>
+      <Link href={"/"}>Home</Link>
     </View>
   )
 }
